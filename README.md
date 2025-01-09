@@ -19,18 +19,17 @@ You must dispatch the packages in the following stacks:
 
 ### Explanation of the Code
 
-1.The volume is calculated using width * height * length.
-2. A package is considered bulky if: Its volume is >= 1,000,000 cm³, or any of its dimensions (width, height, or length) is >= 150 cm.
-3. A package is considered heavy if its mass is >= 20 kg.
-4. If the package is both bulky and heavy, it is REJECTED.
-5. If the package is either bulky or heavy (but not both), it is SPECIAL.
-6. Otherwise, it is STANDARD.
+- The volume is calculated using width * height * length.
+- A package is considered bulky if: Its volume is >= 1,000,000 cm³, or any of its dimensions (width, height, or length) is >= 150 cm.
+- A package is considered heavy if its mass is >= 20 kg.
+- If the package is both bulky and heavy, it is REJECTED.
+- If the package is either bulky or heavy (but not both), it is SPECIAL.
+- Otherwise, it is STANDARD.
 
 
 ### How to Use
 
-1. Clone the repository: Copy the repository URL from GitHub (click Code -> HTTPS -> Copy link (https://github.com/ManasiJadhav3012/package-sorter.git)).
-2. Run the script on the terminal by opening terminal at the location of the file:
+- Clone the repository: Copy the repository URL from GitHub (click Code -> HTTPS -> Copy link (https://github.com/ManasiJadhav3012/package-sorter.git)).
+- Run the script on the terminal by opening terminal at the location of the file:
 ```bash
 python sort_packages.py
-2. 
